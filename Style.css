@@ -80,8 +80,19 @@ nav a:hover{
 
     .toggle{
         position: absolute;
-        top: 15px;
+        top: 25px;
         right: 20px;
+    }
+    
+    .container-whey {
+        max-width: 400px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .product-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
     }
 }
 /*  main   */
@@ -152,8 +163,8 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-/*Footer*/
 
+/*Footer*/
 
 .footer-content {
     background-color: #00b7ff;
@@ -169,4 +180,45 @@ button:hover {
 
 .company-info p {
     margin: 5px 0;
+}
+
+/* Whey */
+
+.container-whey {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  .product-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    justify-self: center;
+
+  }
+  .product-description {
+    margin-bottom: 20px;
+  }
+  .flavor-select {
+    margin-bottom: 20px;
+  }
+  .buy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+  .buy-button:hover {
+    background-color: #45a049;
 }
